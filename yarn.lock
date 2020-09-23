@@ -3847,13 +3847,13 @@ escape-string-regexp@1.0.5, escape-string-regexp@^1.0.2, escape-string-regexp@^1
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-4catalyzer-typescript@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-4catalyzer-typescript/-/eslint-config-4catalyzer-typescript-2.0.3.tgz#285f38fbb9b32e814da01f49ca2e343ea4540c4b"
-  integrity sha512-c35NkDdqvdPtPhxthVNzam+Crh8BdenzlIeiCyRRDknKpqYjU/oK4Cd5fpPj4yUYWjXiTEDI9LxcxmgeXuwukA==
+eslint-config-4catalyzer-typescript@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-4catalyzer-typescript/-/eslint-config-4catalyzer-typescript-3.0.0.tgz#91701ba2b7b586a4370c4e364b3e10327b9ab549"
+  integrity sha512-yZv8dSvLtElK9xf5kR3n7BKSLhM3aYdXao4CqEN2KP5C3FEUgPn6Lq+B9dpo3pkaa8tzxNu7NXQvUFwuIJaxGQ==
   dependencies:
     babel-eslint "^10.0.3"
-    eslint-import-resolver-typescript "^2.0.0"
+    eslint-import-resolver-typescript "^2.3.0"
 
 eslint-config-airbnb-base@^14.1.0:
   version "14.1.0"
@@ -3888,15 +3888,15 @@ eslint-import-resolver-node@^0.3.3, eslint-import-resolver-node@^0.3.4:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-import-resolver-typescript@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.0.0.tgz#e95f126cc12d3018b9cc11692b4dbfd3e17d3ea6"
-  integrity sha512-bT5Frpl8UWoHBtY25vKUOMoVIMlJQOMefHLyQ4Tz3MQpIZ2N6yYKEEIHMo38bszBNUuMBW6M3+5JNYxeiGFH4w==
+eslint-import-resolver-typescript@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.3.0.tgz#0870988098bc6c6419c87705e6b42bee89425445"
+  integrity sha512-MHSXvmj5e0SGOOBhBbt7C+fWj1bJbtSYFAD85Xeg8nvUtuooTod2HQb8bfhE9f5QyyNxEfgzqOYFCvmdDIcCuw==
   dependencies:
     debug "^4.1.1"
+    glob "^7.1.6"
     is-glob "^4.0.1"
-    resolve "^1.12.0"
-    tiny-glob "^0.2.6"
+    resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
 eslint-import-resolver-webpack@^0.12.2:
